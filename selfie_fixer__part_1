@@ -1,0 +1,5 @@
+# selfie fixer, part 1
+
+convert ugly.jpg  -channel RGBA  -blur 0x3  selfie_now-step2.jpg
+
+# put your original file in $(pwd) as ugly.jpg, run command, then selfie_now-step2.jpg will be okay

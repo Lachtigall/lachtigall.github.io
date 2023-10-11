@@ -1,0 +1,64 @@
+/***************************************************************************
+    TOYHOUSE SPOILER BOXES
+    This is the CSS for spoiler boxes. Please see the demo for details!
+    You can edit the section below to style the spoiler boxes.
+    The required HTML to make a spoiler box on a page is here: 
+    https://loader.8bitbirdsong.net/text/view/17
+	Feel free to use/incorporate any part of this
+	in a separate stylesheet, credit optional.
+	Last updated 2/10/15
+    https://toyhou.se/aleator
+***************************************************************************/
+/* Basic styling. Feel free to edit this part */
+ .spoiler-box {
+     padding: 5px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     width:64px;
+     min-width:64px;
+     max-width:64px;
+     opacity:1;
+}
+ .spoiler-close {
+     text-shadow: 0px 0px 0px transparent;
+     padding: 0px 5px;
+     float: right;
+     width:64px;
+     min-width:64px;
+     max-width:64px;
+     opacity:1;
+}
+ .spoiler-content {
+     width:64px;
+     padding: 5px;
+     width:64px;
+     min-width:64px;
+     max-width:64px;
+     opacity:1;
+}
+ .spoiler-title {
+     background-color: transparent;
+     color: #fff;
+     width:64px;
+     display: block;
+     padding: 5px;
+     position: relative;
+     width:64px;
+     min-width:64px;
+     max-width:64px;
+     opacity:1;
+}
+/* Hides the spoiler button and content. Don't touch this! */
+ .spoiler-close, .spoiler-content {
+     display: none;
+}
+/* Makes the spoiler content/close button show when the box is clicked. Don't touch this! */
+ .spoiler-box:focus .spoiler-content {
+     display: block;
+     opacity:1;
+}
+ .spoiler-box:focus .spoiler-close {
+     display: block;
+     opacity:1;
+}
+

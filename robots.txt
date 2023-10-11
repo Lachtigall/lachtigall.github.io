@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /assets/asset-dev/
+Disallow: /wip/
+Disallow: /xmpp/
+Disallow: /snippets/
+Disallow: /nethackrc/
+Disallow: /repos/
+Disallow: /xnethackrc/
+Disallow: /support/
+Disallow: /pubscreen/
+Disallow: /pubscreens/
+Disallow: /IM/
+Disallow: /question/
+Disallow: /curiouscat/
+Disallow: /bookmarks/
+Disallow: /minetest-private/

@@ -1,0 +1,100 @@
+html,body {
+overflow: hidden; /* Hide scrollbars */
+scrollbar-width: none; /* For Firefox */
+-ms-overflow-style: none; /* For Internet Explorer and Edge */
+-webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.backer {
+background-color:#00ff00;
+height:960px;
+width:960px;
+margin: 0 auto;
+margin-top:60px;
+border:2px solid #0000ff;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
+.logotexty {
+padding: 480px 0;
+border: 2px solid transparent;
+text-align: center;
+font-size: 208px;
+vertical-align: middle;
+}
+br {
+     content: "A" !important;
+     display: block !important;
+     margin-bottom: 0px !important;
+}
+hr {
+     content: "A" !important;
+     display: block !important;
+     margin-bottom: 8px !important;
+     color:transparent;
+     text-decoration-color:transparent;
+     height:0px;
+     width:0px;
+     max-height:0px;
+     max-width:0px;
+     min-height:0px;
+     min-width:0px;
+content: "\a";
+white-space: pre;
+}
+p {
+white-space: pre;
+line-height:256px;
+}
+.outlineverlay {
+background-color:transparent;
+height:956px;
+width:956px;
+margin: 0 auto;
+margin-top:60px;
+position:absolute;
+z-index: 999999999;
+top:0;
+left:0;
+margin-top:62px;
+margin-left:482px;
+border: 0px solid transparent;
+}
+.outlineverlay2 {
+background-color:transparent;
+height:956px;
+width:956px;
+margin: 0 auto;
+margin-top:60px;
+position:absolute;
+z-index: 999999999;
+top:0;
+left:0;
+margin-top:62px;
+margin-left:482px;
+border: 0px solid transparent;
+}
+.outlineverlay3 {
+background-color:transparent;
+height:924px;
+width:926px;
+margin: 0 auto;
+margin-top:60px;
+position:absolute;
+z-index: 999999999;
+top:0;
+left:0;
+margin-top:78px;
+margin-left:496px;
+border: 0px solid transparent;
+}
+.claimer {
+position:absolute;
+top:0;
+left:0;
+}
