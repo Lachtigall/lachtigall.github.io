@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Novi Bookmarks</title>
+    <style type="text/css">
+        html {
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            position:absolute;
+            top:0px;
+            left:0px;
+            width:1400px;
+            height:1000px;
+            background-color:black;
+        }
+          
+        html,
+        body,
+        div,
+        iframe {
+            margin: 0px;
+            padding: 0px;
+            border: hidden;
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            position:absolute;
+            top:0px;
+            left:0px;
+            width:1400px;
+            height:1000px;
+        }
+          
+        iframe {
+            display: block;
+            position:absolute;
+            border: hidden;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;.
+            top:0px;
+            left:0px;
+            width:1400px;
+            height:1000px;
+        }
+		
+		
+#overlay-blocking,
+#overlay-passing{
+  position: absolute;
+  height: 30px;
+  width: 10em;
+  left: 0;
+}
+
+#overlay-blocking {
+  top: 0px;
+background-image: url("background-allower.png");   
+  pointer-events: none;
+  z-index: 16777271;
+  background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+   left:0px;
+   width:3840px;
+   height:3840px;
+   min-width:3840px;
+   min-height:3840px;
+   max-width:3840px;
+   max-height:3840px;
+}
+#overlay-passing {
+  top: 0;
+  background: rgba(100,0,0, .2);    
+}
+
+    </style>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+</head>
+  
+<body bgcolor="#000000">
+	<div id="overlay-blocking" class="overlay-blocking"></div>
+    <iframe src="iframe.html"
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0" 
+            width="1400px" 
+            height="1000px" 
+            scrolling="no" 
+            style="overflow:hidden; overflow-x:hidden, overflow-y: hidden;" 
+            seamless="seamless"
+            allow="autoplay">
+  </iframe>
+
+</body>
+  
+</html>

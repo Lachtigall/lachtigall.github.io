@@ -1,0 +1,36 @@
+pre {
+padding:5px;
+margin:5px;
+line-height:22px;
+color:#fff;
+}
+a {
+padding:5px;
+margin:5px;
+line-height:22px;
+color:#fff;
+}
+span {
+padding:5px;
+margin:5px;
+line-height:22px;
+color:#fff;
+}
+p {
+padding:5px;
+margin:5px;
+line-height:22px;
+color:#fff;
+}
+html {
+background-color: #191c1e;
+color:white;
+}
+body {
+background-color: #191c1e;
+color:#fff;
+}
+article {
+    max-width: 900px;
+    margin: 0 auto;
+} 
