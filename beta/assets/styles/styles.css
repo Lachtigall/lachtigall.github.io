@@ -200,7 +200,7 @@ html,body {
      text-decoration:none;
      text-decoration-color:transparent;
      height:auto;
-     vertical-align: top;
+     vertical-align: middle;
      padding-top:-32px;
      display:inline;
      opacity:0.9;
@@ -278,7 +278,7 @@ html,body {
      line-height:10px;
      height:10px;
 }
- .badgeholder {
+ .zoeybadgeholder {
      display:inline;
      float: left;
      top:0;
@@ -286,7 +286,7 @@ html,body {
      position:static;
      line-height:64px;
 }
- .badge {
+ .zoeybadge {
      display:inline-block;
      float:right;
      width:auto;
@@ -294,11 +294,11 @@ html,body {
      border:1px solid transparent;
      opacity: 0.9;
      position:relative;
-     margin-top:-32px;
+     margin-top:16px;
      vertical-align:bottom;
      line-height:64px;
 }
- .badge:hover {
+ .zoeybadge:hover {
      opacity:1;
 }
  .nav {
