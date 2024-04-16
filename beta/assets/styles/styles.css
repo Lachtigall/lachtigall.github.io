@@ -159,6 +159,10 @@ html,body {
 	 white-space:nowrap;
 	 display:inline-block;
 	 margin:2px;
+	 display:inline;
+	 margin:0px;
+	 padding:19px;
+	 vertical-align:top;
 }
  .novinewpleaseleavemealonelinkTWOimage {
      margin:2px;
@@ -190,6 +194,7 @@ html,body {
      border-radius: 64px;
 	 white-space:nowrap;
 	 padding:5px;
+	 color:#ff7eb7;
 }
  .bandcampfix {
      text-rendering:optimizeLegibility;
