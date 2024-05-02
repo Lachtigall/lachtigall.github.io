@@ -37,7 +37,7 @@ html,body {
      background-color:transparent;
      background-size: cover;
      text-align: left;
-     background: rgba(0, 0, 0, 1) url(./assets/background.jpg) no-repeat center center fixed;
+     background: rgba(0, 0, 0, 1) url(./assets/2023wall.png) no-repeat center center fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -51,7 +51,7 @@ html,body {
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     background: url(https://novimatrem.uk/assets/background.jpg) no-repeat center center fixed; 
+     background: url(https://novimatrem.uk/assets/2023wall.png) no-repeat center center fixed; 
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -159,10 +159,6 @@ html,body {
 	 white-space:nowrap;
 	 display:inline-block;
 	 margin:2px;
-	 display:inline;
-	 margin:0px;
-	 padding:19px;
-	 vertical-align:top;
 }
  .novinewpleaseleavemealonelinkTWOimage {
      margin:2px;
@@ -194,7 +190,6 @@ html,body {
      border-radius: 64px;
 	 white-space:nowrap;
 	 padding:5px;
-	 color:#ff7eb7;
 }
  .bandcampfix {
      text-rendering:optimizeLegibility;
@@ -205,7 +200,7 @@ html,body {
      text-decoration:none;
      text-decoration-color:transparent;
      height:auto;
-     vertical-align: middle;
+     vertical-align: top;
      padding-top:-32px;
      display:inline;
      opacity:0.9;
@@ -283,7 +278,7 @@ html,body {
      line-height:10px;
      height:10px;
 }
- .zoeybadgeholder {
+ .badgeholder {
      display:inline;
      float: left;
      top:0;
@@ -291,7 +286,7 @@ html,body {
      position:static;
      line-height:64px;
 }
- .zoeybadge {
+ .badge {
      display:inline-block;
      float:right;
      width:auto;
@@ -299,11 +294,11 @@ html,body {
      border:1px solid transparent;
      opacity: 0.9;
      position:relative;
-     margin-top:16px;
+     margin-top:-32px;
      vertical-align:bottom;
      line-height:64px;
 }
- .zoeybadge:hover {
+ .badge:hover {
      opacity:1;
 }
  .nav {
