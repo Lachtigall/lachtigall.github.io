@@ -190,6 +190,7 @@ html,body {
      border-radius: 64px;
 	 white-space:nowrap;
 	 padding:5px;
+	 color:#ff7eb7;
 }
  .bandcampfix {
      text-rendering:optimizeLegibility;
@@ -278,15 +279,16 @@ html,body {
      line-height:10px;
      height:10px;
 }
- .badgeholder {
+ .zoeybadgeholder {
      display:inline;
      float: left;
      top:0;
      left:0;
      position:static;
      line-height:64px;
+     color:#ff7eb7;
 }
- .badge {
+ .zoeybadge {
      display:inline-block;
      float:right;
      width:auto;
@@ -297,8 +299,9 @@ html,body {
      margin-top:-32px;
      vertical-align:bottom;
      line-height:64px;
+     color:#ff7eb7;
 }
- .badge:hover {
+ .zoeybadge:hover {
      opacity:1;
 }
  .nav {
