@@ -115,17 +115,18 @@ border-radius: 32px;
 }
  a {
      padding:5px;
-     margin:5px;
      font-family: 'C64_Pro-STYLE';
      text-shadow: 2px 2px 1px rgb(0, 0, 0);
      text-rendering:optimizeLegibility;
      max-width:700px;
-     text-decoration:underline;
+     text-decoration:none;
+     text-decoration-color:transparent;
      background-color:black;
        -webkit-user-select: none;  
   -moz-user-select: none;    
   -ms-user-select: none;      
   user-select: none;
+  margin:35px;
 }
  hr {
      text-rendering:optimizeLegibility;
