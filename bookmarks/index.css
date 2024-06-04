@@ -307,12 +307,10 @@ border-radius: 32px;
 }
  ul > li {
      display: inline;
-     zoom:1;
      *display:inline;
 }
  ul {
      display: inline;
-     zoom:1;
      *display:inline;
     /* balance height properly, leave alone. */
      height:92px;
@@ -325,7 +323,6 @@ border-radius: 32px;
 }
  li {
      display: inline;
-     zoom:1;
      *display:inline;
 }
  button {
