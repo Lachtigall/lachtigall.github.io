@@ -6,7 +6,7 @@
   background: #8fbc8f;
   background-color: #8fbc8f;
 }
-.noviolink, .noviolinkhref, .noviolinkimage {
+.lachtiolink, .lachtiolinkhref, .lachtiolinkimage {
 width:10000%;
 height:10000%
 max-width:10000%;
@@ -37,7 +37,7 @@ html,body {
      background-color:transparent;
      background-size: cover;
      text-align: left;
-     background: rgba(0, 0, 0, 1) url(./assets/2023wall.png) no-repeat center center fixed;
+     background: rgba(0, 0, 0, 1) url(./assets/bg.png) no-repeat center center fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -51,7 +51,7 @@ html,body {
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     background: url(https://novimatrem.uk/assets/2023wall.png) no-repeat center center fixed; 
+     background: url(https://lachtigall.github.io/assets/bg.png) no-repeat center center fixed; 
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -136,7 +136,7 @@ html,body {
      min-height:0px;
      min-width:0px;
 }
- .novinewpleaseleavemealonelinkTWO {
+ .lachtinewpleaseleavemealonelinkTWO {
      text-rendering:optimizeLegibility;
      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
      margin:2px;
@@ -160,7 +160,7 @@ html,body {
 	 display:inline-block;
 	 margin:2px;
 }
- .novinewpleaseleavemealonelinkTWOimage {
+ .lachtinewpleaseleavemealonelinkTWOimage {
      margin:2px;
      padding:3px;
      line-height:22px;
@@ -174,7 +174,7 @@ html,body {
      border-radius: 64px;
 	 white-space:nowrap;
 }
- .novinewpleaseleavemealonelinkTWOhref {
+ .lachtinewpleaseleavemealonelinkTWOhref {
      text-rendering:optimizeLegibility;
      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
      margin:2px;
@@ -236,16 +236,16 @@ html,body {
      margin:5px;
      margin-right:32px;
 }
- .novinewpleaseleavemealonelinkTWOhref:hover {
+ .lachtinewpleaseleavemealonelinkTWOhref:hover {
      opacity:1;
 }
  .bandcampfix:hover {
      opacity:1;
 }
- .novinewpleaseleavemealonelinkTWOimage:hover {
+ .lachtinewpleaseleavemealonelinkTWOimage:hover {
      opacity:1;
 }
- .novinewpleaseleavemealonelinkTWO:hover {
+ .lachtinewpleaseleavemealonelinkTWO:hover {
      opacity:1;
 }
  .copy {
@@ -279,7 +279,7 @@ html,body {
      line-height:10px;
      height:10px;
 }
- .zoeybadgeholder {
+ .lachtibadgeholder {
      display:inline;
      float: left;
      top:0;
@@ -288,7 +288,7 @@ html,body {
      line-height:64px;
      color:#ff7eb7;
 }
- .zoeybadge {
+ .lachtibadge {
      display:inline-block;
      float:right;
      width:auto;
@@ -301,7 +301,7 @@ html,body {
      line-height:64px;
      color:#ff7eb7;
 }
- .zoeybadge:hover {
+ .lachtibadge:hover {
      opacity:1;
 }
  .nav {
@@ -320,7 +320,7 @@ html,body {
      padding:2px;
      background-color:transparent;
 }
- .noviheart {
+ .lachtiheart {
      position:static;
      display:inline;
      padding-top:5px;
