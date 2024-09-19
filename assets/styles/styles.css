@@ -37,7 +37,7 @@ html,body {
      background-color:transparent;
      background-size: cover;
      text-align: left;
-     background: rgba(0, 0, 0, 1) url(./assets/bg.png) no-repeat center center fixed;
+     background: rgba(0, 0, 0, 1) url(./assets/bg.JPG) no-repeat center center fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -51,7 +51,7 @@ html,body {
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     background: url(https://lachtigall.github.io/assets/bg.png) no-repeat center center fixed; 
+     background: url(https://lachtigall.github.io/assets/bg.JPG) no-repeat center center fixed; 
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -65,7 +65,7 @@ html,body {
  a {
      text-rendering:optimizeLegibility;
      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-     color:darkseagreen;
+     color:#ff263b;
 }
  a:hover {
 }
